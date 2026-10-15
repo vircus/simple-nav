@@ -1,0 +1,33 @@
+# 依赖
+node_modules/
+.pnp
+.pnp.js
+
+# 构建产物
+.next/
+out/
+build/
+dist/
+
+# 本地开发数据回退（EdgeOne 生产环境无持久化文件系统）
+.data/
+
+# 环境变量
+.env
+.env.local
+.env*.local
+
+# 日志
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 编辑器
+.vscode/
+.idea/
+.DS_Store
+*.tsbuildinfo
+next-env.d.ts
+
+# 项目本地记忆（WorkBuddy）
+.workbuddy/
